@@ -874,6 +874,14 @@ iframe {
     width: auto;
 }
 
+.service-images img {
+    width: 100%; /* Ensures the image fills the container */
+    height: 300px; /* Set a fixed height for all images */
+    object-fit: fill; /* Maintains aspect ratio while covering the entire area */
+  }
+  .service-item {
+    margin-bottom: 30px; /* Add space between items */
+  }
 
 /* ------------------------
     List Icon
